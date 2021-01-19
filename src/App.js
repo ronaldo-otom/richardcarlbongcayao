@@ -1,4 +1,3 @@
-import './App.css';
 import Index from './components';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import PhotographyCompnent from './components/photography/photographyCompnent';
