@@ -6,7 +6,7 @@ import './style.css'
 function Index() {
     return (
         <div className="imageWrapper">         
-            <img src={cover} alt="" height="912"/>
+            <img src={cover} alt="" className="coverImage"/>
             <div className="centeredBackground" />
             <div className="centered">
                 <h1>Photography | Videography</h1>
