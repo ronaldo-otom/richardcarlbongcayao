@@ -1,6 +1,6 @@
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 import React from 'react'
-import cover from '../assets/cover.JPG';
+import cover from '../assets/cover.jpg';
 import './style.css'
 
 function Index() {
