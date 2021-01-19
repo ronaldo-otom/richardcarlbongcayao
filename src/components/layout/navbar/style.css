@@ -1,3 +1,11 @@
 .navbar {
     background-color: rgba(0, 0, 0, 0.905);
 }
+.link {
+    text-decoration: none;
+    color: darkgray;
+}
+.link:hover {
+    text-decoration: none;
+    color: white;
+}

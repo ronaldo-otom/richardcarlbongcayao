@@ -1,6 +1,7 @@
 import React from 'react'
 import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap'
 import './style.css';
+import {NavLink} from 'react-router-dom'
 
 function NavbarLayout() {
     return (
@@ -10,7 +11,7 @@ function NavbarLayout() {
                 <Nav className="mr-auto" />
                 <Nav>
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/photography">Photography</Nav.Link>
+                    <Nav.Link><NavLink to="/photography" className="link">Photography</NavLink></Nav.Link>
                     <Nav.Link href="#link">Videography</Nav.Link>
                     <Nav.Link href="#link">Book</Nav.Link>
                     {/* <NavDropdown title="Gallery" id="basic-nav-dropdown">
