@@ -12,6 +12,7 @@
 .coverImage {
     height: 20%;
     width: 100%;
+    background-size: cover;
 }
 /* Centered text */
 .centeredBackground {
@@ -24,20 +25,97 @@
     background-color: rgba(0, 0, 0, 0.419);
 }
 .centered {
-    text-transform: uppercase;
     position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);    
-    font-family: 'Six Caps', sans-serif;    
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);          
+}
+.centered h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
 }
 
-.centered h1 {
-    font-size: 110px;
-}
 .centered p {
     text-transform: initial;
-    font-family: 'Satisfy', cursive;
-    font-size: 25px;
+    font-family: 'Yusei Magic', sans-serif; 
+    font-size: 10px;
     color: rgba(211, 211, 211, 0.789);
+}
+.centeredNavigation {
+    position: absolute;    
+    top: 7%;
+    left: 50%;
+    width: 100%;   
+    transform: translate(-50%, -50%);    
+    font-size: 80px;
+}
+.centeredNavigation div {
+    justify-content: space-around;
+}
+.centeredNavigation h1 {    
+   
+    color: rgba(255, 255, 255, 0.679);
+}
+.centeredNavigation h1:hover {      
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.centeredNavigation h4 {      
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.761);
+    font-weight: bold;
+    margin-top: -15px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation ul{  
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navigation li{  
+    list-style-type: none;
+    margin: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.734);
+}
+.navigation, li, #active{  
+    list-style-type: none;
+    margin: 35px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.navigation li:hover{  
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.link {
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.734);
+}
+.link:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.icons {
+    margin-bottom: 20px;     
+}
+.fa {
+    background-color: rgba(0, 0, 0, 0.522);
+    padding: 2%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.fa:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
 }

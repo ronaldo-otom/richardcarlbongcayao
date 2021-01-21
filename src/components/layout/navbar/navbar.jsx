@@ -7,13 +7,12 @@ function NavbarLayout() {
     return (
         <Navbar className="navbar" variant='dark'>
             <Container>            
-                <Navbar.Brand href="/">Richard Carl Bongcayao</Navbar.Brand>
+                <Navbar.Brand href="/" className="brand">Richard Carl Bongcayao</Navbar.Brand>
                 <Nav className="mr-auto" />
                 <Nav>
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link><NavLink to="/photography" className="link">Photography</NavLink></Nav.Link>
-                    <Nav.Link href="#link">Videography</Nav.Link>
-                    <Nav.Link href="#link">Book</Nav.Link>
+                    <Nav.Link><NavLink to="/" className="link">Home</NavLink></Nav.Link>
+                    <Nav.Link href="#gallery">Gallery</Nav.Link>                   
+                    <Nav.Link><NavLink to="/book" className="link">Book</NavLink></Nav.Link>
                     {/* <NavDropdown title="Gallery" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

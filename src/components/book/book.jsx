@@ -1,12 +1,12 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 
-function PhotographyCompnent() {
+function BookComponent() {
     return (
         <Container style={{padding: 25}}>
-            <h1>Photography</h1>
+            <h1>Book</h1>
         </Container>
     )
 }
 
-export default PhotographyCompnent
+export default BookComponent

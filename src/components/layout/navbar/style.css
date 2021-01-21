@@ -1,11 +1,15 @@
 .navbar {
-    background-color: rgba(0, 0, 0, 0.905);
+    background-color: rgba(0, 0, 0, 0.905);  
+    text-transform: uppercase; 
 }
-.link {
+.brand {
+    font-family: 'Satisfy', cursive;    
+}
+/* .link {
     text-decoration: none;
     color: darkgray;
 }
 .link:hover {
     text-decoration: none;
     color: white;
-}
+} */
